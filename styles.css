@@ -8,7 +8,14 @@ body, a{
     padding: 0;
     margin: 0;
 }
-
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/*nav bar*/
 nav {
     position: sticky;
     display: flex;
@@ -30,4 +37,17 @@ nav ul {
 }
 nav li {
     margin: 0 20px;
+}
+/*mission*/
+.mission {
+    background-image: url(/imgs/looseTea.png);
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    background-repeat:no-repeat;
+}
+.missionText {
+    background: black;
+    width: 100%
 }
